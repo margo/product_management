@@ -1,0 +1,32 @@
+name:  Product Requirements
+description: Product Requirements 
+title: "[Prod-Req]"
+labels: ["product requirements"]
+projects: ["product requirements"]
+assignees:
+- bnieuwborg
+- ajcraig
+body:
+  - type: textarea
+    id: objectives
+    attributes:
+      label: Objectives
+      description: 
+      placeholder: Requirement features and details
+      value: "Add details"
+    validations:
+      required: true
+  - type: dropdown
+    id: Focus-Groups
+    attributes:
+      label: Requirement dependency with other Focus Groups
+      multiple: true
+      options:
+        - No Dependency
+        - App-package-definition
+        - App-Observability
+        - Device-Requirements
+        - Workload Orchestration Agent Interfaces
+        - End-to-end prototypes
+        - Security
+

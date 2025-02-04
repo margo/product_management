@@ -10,7 +10,7 @@ assignees: bnieuwborg
 ## Date: DD MM YYYY 
 Time 4:00pm CET - [See the time in your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Technical+Sync+Meeting&iso=20240516T16&p1=37&ah=2)
 
-- Chair: Bart Nieuwborg (Rockwell) - @ajcraig
+- Chair: Bart Nieuwborg (Rockwell) - @bnieuwborg
 - Project Management: Sean Mcilroy (Linux Foundation) - @seanmcilroy29
 
 ## Meeting notices

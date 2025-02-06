@@ -26,7 +26,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: Requirements Description
+    id: Requirements-Description
     attributes:
       label: Milestone
       description: 
@@ -35,7 +35,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: Requirements Description
+    id: Workflow
     attributes:
       label: Workflow
       description: 

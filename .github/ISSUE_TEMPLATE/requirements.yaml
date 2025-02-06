@@ -8,11 +8,38 @@ assignees:
 - ajcraig
 body:
   - type: textarea
-    id: objectives
+    id: Requirements
     attributes:
-      label: Objectives
+      label: Requirements Description
       description: 
-      placeholder: Requirement features and details
+      placeholder: Requirement features and details (Required)
+      value: "Add details"
+    validations:
+      required: true
+  - type: textarea
+    id: deliverables-impacted
+    attributes:
+      label: deliverables impacted
+      description: 
+      placeholder: PMG deliverables impacted via the requirement(not required)
+      value: "Add details"
+    validations:
+      required: true
+  - type: textarea
+    id: Requirements Description
+    attributes:
+      label: Milestone
+      description: 
+      placeholder: Desired milestone/snap-shot PMG wants to include (Not Required)
+      value: "Add details"
+    validations:
+      required: true
+  - type: textarea
+    id: Requirements Description
+    attributes:
+      label: Workflow
+      description: 
+      placeholder: Associated user workflow (Required)
       value: "Add details"
     validations:
       required: true

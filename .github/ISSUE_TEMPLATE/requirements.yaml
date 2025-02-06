@@ -1,11 +1,11 @@
 name:  Product Requirements
 description: Product Requirements 
 title: "[Prod-Req]"
-labels: ["PM - Requirements in Draft"]
+labels: ["PM - Requirement in Draft"]
 projects: ["product management"]
 assignees:
-- bnieuwborg
 - abbottjd
+- bnieuwborg
 body:
   - type: textarea
     id: Requirements
@@ -22,7 +22,7 @@ body:
       label: deliverables impacted (not required)
       description: 
       placeholder: PMG deliverables impacted via the requirement
-      value: "Add details - PMG deliverables impacted via the requirement."
+      value: "Add details - PMG deliverables impacted via the requirement.  Is it - 1. Open specification 2. Open implementation 3. Open testing and compliance - indicate if that requirement impacts which deliverable."
     validations:
       required: true
   - type: textarea
@@ -31,7 +31,7 @@ body:
       label: Milestone (Not Required)
       description: 
       placeholder: Desired milestone/snap-shot PMG wants to include
-      value: "Add details - Desired milestone/snap-shot PMG wants to include. Is it 1. Open specification 2. Open implementation 3. Open testing and compliance - indicate if that requirement is impacting which deliverable."
+      value: "Add details - Desired milestone/snap-shot PMG wants to include."
     validations:
       required: true
   - type: textarea

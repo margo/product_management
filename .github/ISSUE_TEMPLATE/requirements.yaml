@@ -10,37 +10,46 @@ body:
   - type: textarea
     id: Requirements
     attributes:
-      label: Requirements Description
+      label: Requirements Description (Required)
       description: 
-      placeholder: Requirement features and details (Required)
-      value: "Add details"
+      placeholder: Requirement features and details
+      value: "Add details-Requirement features and details"
     validations:
       required: true
   - type: textarea
-    id: deliverables-impacted
+    id: Deliverables-Impacted
     attributes:
-      label: deliverables impacted
+      label: deliverables impacted (not required)
       description: 
-      placeholder: PMG deliverables impacted via the requirement(not required)
-      value: "Add details"
+      placeholder: PMG deliverables impacted via the requirement
+      value: "Add details-PMG deliverables impacted via the requirement."
     validations:
       required: true
   - type: textarea
     id: Requirements-Description
     attributes:
-      label: Milestone
+      label: Milestone (Not Required)
       description: 
-      placeholder: Desired milestone/snap-shot PMG wants to include (Not Required)
-      value: "Add details"
+      placeholder: Desired milestone/snap-shot PMG wants to include
+      value: "Add details-Desired milestone/snap-shot PMG wants to include."
     validations:
       required: true
   - type: textarea
     id: Workflow
     attributes:
-      label: Workflow
+      label: Workflow (Required)
       description: 
-      placeholder: Associated user workflow (Required)
-      value: "Add details"
+      placeholder: Associated user workflow
+      value: "Add details-Associated user workflow"
+    validations:
+      required: true
+  - type: textarea
+    id: Non-Functional-Requirements
+    attributes:
+      label: Non-Functional Requirements(not required)
+      description: 
+      placeholder: Associated user workflow
+      value: "Add details-Non-Functional-Requirements"
     validations:
       required: true
   - type: dropdown

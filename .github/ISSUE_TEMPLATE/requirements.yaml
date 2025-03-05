@@ -43,25 +43,7 @@ body:
       value: "Add details-Non-Functional-Requirements"
     validations:
       required: true
-    - type: textarea
-    id: Related-User-Journey
-    attributes:
-      label: Related User Journey
-      description: 
-      placeholder: Associated user Journey
-      value: "Add related user journey name"
-    validations:
-      required: true
-    - type: number
-    id: User-Journey-Step-Number
-    attributes:
-      label: User Journey Step number
-      description: 
-      placeholder: User Journey Step Number
-      value: 1
-    validations:
-      required: true
-  - type: dropdown
+   - type: dropdown
     id: Focus-Groups
     attributes:
       label: Requirement dependency with other Focus Groups

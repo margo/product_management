@@ -6,7 +6,7 @@
 - [Product Management G-Drive for documents and presentations](https://drive.google.com/drive/folders/1CwIZpqjiXOnnXxUW163t8phSp-JRKZ6z?usp=sharing)
 
 ***
-### Proposed Planning](https://docs.google.com/presentation/d/1dd1gfzgQs7Zcl_rUk1PfMdVr8hP9Rq7r/edit#slide=id.p2):
+### [Proposed Planning](https://docs.google.com/presentation/d/1dd1gfzgQs7Zcl_rUk1PfMdVr8hP9Rq7r/edit#slide=id.p2):
 ![image](https://github.com/user-attachments/assets/16d9ea4d-3ad5-4599-abb2-7ddad14b4ee3)
 ![image](https://github.com/user-attachments/assets/5fbcb45e-8932-4cad-8e53-7ca02a400663)
 

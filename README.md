@@ -1,16 +1,16 @@
 ## Product Manager Committee
 
-1. [Proposed Planning](https://docs.google.com/presentation/d/1dd1gfzgQs7Zcl_rUk1PfMdVr8hP9Rq7r/edit#slide=id.p2):
+### Documentation Support
+- UserJourneySteps-DeployWorkloadAtScale - [Step-by-step scenario](https://github.com/margo/product_management/blob/main/UserJourneySteps-DeployWorkloadAtScale.md)
+- [Project Dashboard](https://github.com/margo/product_management/projects) to track the current status of submitted requirements
+- [Product Management G-Drive for documents and presentations](https://drive.google.com/drive/folders/1CwIZpqjiXOnnXxUW163t8phSp-JRKZ6z?usp=sharing)
+
+***
+### Proposed Planning](https://docs.google.com/presentation/d/1dd1gfzgQs7Zcl_rUk1PfMdVr8hP9Rq7r/edit#slide=id.p2):
 ![image](https://github.com/user-attachments/assets/16d9ea4d-3ad5-4599-abb2-7ddad14b4ee3)
 ![image](https://github.com/user-attachments/assets/5fbcb45e-8932-4cad-8e53-7ca02a400663)
 
 ***
-2. [Product Management G-Drive for documents and presentations](https://drive.google.com/drive/folders/1CwIZpqjiXOnnXxUW163t8phSp-JRKZ6z?usp=sharing)
-***
-### PM Project Dashboard
-3. [Project Dashboard](https://github.com/margo/product_management/projects) to track the current status of submitted requirements
-***
-
 ![image](https://github.com/user-attachments/assets/0d59b491-1c2c-4efe-82f9-a6dd99b6ed81)
 
 
@@ -30,3 +30,4 @@
 |       | a. Yes                                 | Issue/PR assigned to the PMG for final review before the requirement is merged into the Spec baseline                                       | ```PM - Requirement Final Review```  |          |
 |       | b. No                                  | Requires TWG feedback - Assign the issue to PWG (@abbottjb) - **Move to Step 4**                                                            | ```PM - Reviewing TWG Feedback```    |          |
 
+***

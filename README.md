@@ -2,7 +2,7 @@
 
 ### Documentation Support
 - User Journey Steps - Deploy Workload At Scale - [Step-by-step scenario](https://github.com/margo/product_management/blob/main/UserJourneySteps-DeployWorkloadAtScale.md)
-- [Project Dashboard](https://github.com/margo/product_management/projects) to track the current status of submitted requirements
+- [Project Dashboard](https://github.com/orgs/margo/projects/13) to track the current status of submitted requirements
 - [Product Management G-Drive for documents and presentations](https://drive.google.com/drive/folders/1CwIZpqjiXOnnXxUW163t8phSp-JRKZ6z?usp=sharing)
 
 ***

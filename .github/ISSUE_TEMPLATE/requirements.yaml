@@ -17,15 +17,6 @@ body:
     validations:
       required: true
   - type: textarea
-    id: Deliverables-Impacted
-    attributes:
-      label: Deliverables impacted (not required)
-      description: 
-      placeholder: PMG deliverables impacted via the requirement
-      value: "Add details - PMG deliverables impacted via the requirement.  Is it - 1. Open specification 2. Open implementation 3. Open testing and compliance - indicate if that requirement impacts which deliverable."
-    validations:
-      required: true
-  - type: textarea
     id: Requirements-Description
     attributes:
       label: Milestone (Not Required)

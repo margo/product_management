@@ -9,7 +9,7 @@ The Specification Update Process can be used to make suggestions to the PM team.
 
 ### Documentation Support
 - User Journey Steps - Deploy Workload At Scale - [Step-by-step scenario](https://github.com/margo/product_management/blob/main/UserJourneySteps-DeployWorkloadAtScale.md)
-- [Project Dashboard](https://github.com/orgs/margo/projects/13) to track the current status of submitted requirements
+- USe teh [Project Dashboard](https://github.com/orgs/margo/projects/13) to track the current status of submitted requirements and roadmap planning
 - [Product Management MSTeams channel for documents and presentations (Margo members only)](https://teams.microsoft.com/l/channel/19%3A7970d4523d194838bcb8b29e45df02bd%40thread.tacv2/Product%20Management?groupId=c2e91119-2dca-467c-a982-a9e732dd6d9a&tenantId=2c3f4c59-fa82-47a7-a9a5-7c0ec5558786)
 
 ***

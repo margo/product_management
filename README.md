@@ -14,9 +14,6 @@ The Specification Update Process can be used to make suggestions to the PM team.
 
 ***
 ### Requirments workflow
-![image](https://github.com/user-attachments/assets/5fbcb45e-8932-4cad-8e53-7ca02a400663)
-
-***
 ![image](https://github.com/user-attachments/assets/0d59b491-1c2c-4efe-82f9-a6dd99b6ed81)
 
 

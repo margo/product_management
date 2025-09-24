@@ -1,9 +1,16 @@
-## Product Manager Committee
+## Product Management Team
+The product management team (aka PM team)  is a subteam of Margo's Steering Committee.
+It's mission is to set technical directions aligned with project objectives, and to assure marketing enablement for Margo's deliverables.
+The product management team owns the roadmap planning and defines the requirements, both inputs for Margo's Technical Working Group.
+
+In a spirit of openness, the roadmap and the collection of requirements are shared in public (read-only). Github Issues and Github Project view are used to structure these deliverables.
+The Specification Update Process can be used to make suggestions to the PM team. 
+
 
 ### Documentation Support
 - User Journey Steps - Deploy Workload At Scale - [Step-by-step scenario](https://github.com/margo/product_management/blob/main/UserJourneySteps-DeployWorkloadAtScale.md)
 - [Project Dashboard](https://github.com/orgs/margo/projects/13) to track the current status of submitted requirements
-- [Product Management G-Drive for documents and presentations](https://drive.google.com/drive/folders/1CwIZpqjiXOnnXxUW163t8phSp-JRKZ6z?usp=sharing)
+- [Product Management MSTeams channel for documents and presentations (Margo members only)](https://teams.microsoft.com/l/channel/19%3A7970d4523d194838bcb8b29e45df02bd%40thread.tacv2/Product%20Management?groupId=c2e91119-2dca-467c-a982-a9e732dd6d9a&tenantId=2c3f4c59-fa82-47a7-a9a5-7c0ec5558786)
 
 ***
 ### [Proposed Planning](https://docs.google.com/presentation/d/1dd1gfzgQs7Zcl_rUk1PfMdVr8hP9Rq7r/edit#slide=id.p2):

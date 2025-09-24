@@ -13,8 +13,7 @@ The Specification Update Process can be used to make suggestions to the PM team.
 - [Product Management MSTeams channel for documents and presentations (Margo members only)](https://teams.microsoft.com/l/channel/19%3A7970d4523d194838bcb8b29e45df02bd%40thread.tacv2/Product%20Management?groupId=c2e91119-2dca-467c-a982-a9e732dd6d9a&tenantId=2c3f4c59-fa82-47a7-a9a5-7c0ec5558786)
 
 ***
-### [Proposed Planning](https://docs.google.com/presentation/d/1dd1gfzgQs7Zcl_rUk1PfMdVr8hP9Rq7r/edit#slide=id.p2):
-![image](https://github.com/user-attachments/assets/16d9ea4d-3ad5-4599-abb2-7ddad14b4ee3)
+### Requirments workflow
 ![image](https://github.com/user-attachments/assets/5fbcb45e-8932-4cad-8e53-7ca02a400663)
 
 ***

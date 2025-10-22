@@ -65,7 +65,7 @@ The Product Management Team operates with delegated decision-making authority fr
 ## 6. Membership
 
 ### Eligibility
-- Open to Steering Members and General Members of the Margo project
+- Open to Steering Members only of the Margo project
 - Members must be active participants in the project
 
 ### Joining

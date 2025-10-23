@@ -18,7 +18,12 @@
 
 ## PR1 documentation review session
 - Notes for PR1 content review
-
+- MWG feedback :
+     - need to freeze the marketing assets before starting MWG work.
+     - lexicon needd to be defined, even if synonyms are acceptable. reference list needs ot be established.
+     - neeed for confirmed timeline: 15 december is an achievable taget date. warm-up campaing ahead of 15 december, and optimizing media outreach timing in January 2026. 
+- 
 
 ## Sounding board outcome documentation
+
 

@@ -8,6 +8,7 @@
 - Readout of charter for the PM group (added to repo)
     https://github.com/margo/product_management/pull/77
 - PM inputs to plugfest planning
+- PM task tracking including PR1 actions and post-PR1 actions
 - Device management approach and review of vision plus existing requirements (time permitting)
     - Discuss next steps after PR1
     - Armand has a working document to share with some initial thoughts
@@ -20,3 +21,4 @@
 
 
 ## Post-PR1
+

@@ -10,11 +10,13 @@
 - PM inputs to plugfest planning
 - Device management approach and review of vision plus existing requirements (time permitting)
     - Discuss next steps after PR1
+    - Armand has a working document to share with some initial thoughts
 
 ## Sounding board outcome documentation
 
 ## PM group charter
 
 ## PM inputs to plugfest planning
+
 
 ## Post-PR1

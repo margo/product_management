@@ -12,6 +12,7 @@
 - Device management approach and review of vision plus existing requirements (time permitting)
     - Discuss next steps after PR1
     - Armand has a working document to share with some initial thoughts
+- Discuss inputs to personas, lexicon, and system design overview video (Armand, ~10mins)
 
 ## Sounding board outcome documentation
 
@@ -21,4 +22,5 @@
 
 
 ## Post-PR1
+
 

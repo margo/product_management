@@ -37,23 +37,29 @@
 - Josh to add the above updates and call for approval before next week's call
 
 ## PM inputs to plugfest planning
-- the March 2026 plugfest is not expected to deliver a formal "plugfest" experience like known in industrial automation.
-- the plugfest is not expected to perform conformance testing, with imposed structered test plans.
-- primarly focus on Margo members (steering, general and contributor). expectation to have very strong representation of steering members
-- participants bring prototypes to verify API interactions, file formats....
-- take go-nogo decision based on outcome of the Margo member survey sensing for intent of joining the first plugfest
+- primarly focus on Margo members (steering, general and contributor). Expectation to have very strong representation of steering members.
+- participant profile: developer, system architect.
+- take go-nogo decision based on outcome survey, sensing for every Margo member's intent to join the March 2025 plugfest
+- Expected outcome : more robust specification, with easy adoption through the right set of supporting tools for adopters
+- secondary objective : strengthen the Margo technical community (=future adopters), with specific focus on providing contributing members an opportunity to network with the core Margo team
+- participants bring Margo prototypes to focus on testing with their peers the Margo API interactions, file formats exchange/ingestion etc..
+- it is not expected to perform conformance testing or running formal, structered test plans.
+- the plugfest is not intended to be a forum to discuss scope, priorities or features. Focus is on implementability of confirmed PR1 specification.
+
 
 ## PM task tracking including PR1 actions and post-PR1 actions
 [PR1 actions](https://lfmargo.sharepoint.com/:x:/r/sites/SteeringCommittee/Shared%20Documents/Product%20Management/Documents/Sounding%20Board%20Workshop%20-%20Feedback%20Questions.xlsx?d=wafe543fffcac436da28f232bc5eff9f6&csf=1&web=1&e=GrUP8c)
 Volunteers for various PR1 actions identified. Definition of deadlines differred to next week.
 Highlights:
-- [Discourse](https://www.discourse.org/) identified as solid candidate for feedback channel. Request to Anwar to build a mock-up. Lechner volunteered to review.
+- [Discourse](https://www.discourse.org/) identified as a solid candidate for feedback channel. Request to Anwar to build a mock-up. Lechner volunteered to review.
 - need support from McIlRoy for consolidating feedback playbook and preparing GitHub repositories ahead of release
 
 note: post PR1 actions have not been addressed. deferred to next PM call.
 
 ## Device management approach and review of vision plus existing requirements
+- Not covered. deferred to future meeting.
 
 ## Discuss inputs to personas, lexicon, and system design overview video
-- deferred to collecting asynchronous feedback from PM team on Armand's proposal. 
+- not convered. Deferred to collecting asynchronous feedback from PM team on Armand's proposal. 
+
 

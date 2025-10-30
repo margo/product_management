@@ -25,6 +25,12 @@
     - Adjust language around marketing enablement (product messaging and positioning done by MWG, supported by PM group)
     - Josh to add the above updates and call for approval before next week's call
 - PM inputs to plugfest planning
+    - the March 2026 plugfest is not expected to deliver a formal "plugfest" experience like known in industrial automation.
+    - the plugfest is not expected to perform conformance testing, with imposed structered test plans.
+    - primarly focus on Margo members (steering, general and contributor). expectation to have very strong representation of steering members
+    - participants bring prototypes to verify API interactions, file formats....
+    - take go-nogo decision based on outcome of the Margo member survey sensing for intent of joining the first plugfest
+   
 - PM task tracking including PR1 actions and post-PR1 actions
 - Device management approach and review of vision plus existing requirements (time permitting)
     - Discuss next steps after PR1
@@ -39,6 +45,7 @@
 
 
 ## Post-PR1
+
 
 
 

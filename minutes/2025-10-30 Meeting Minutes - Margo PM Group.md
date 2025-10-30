@@ -5,6 +5,16 @@
 - Review of sounding board documentation outputs
     - Follow up activity - Preparation for device management
     - Specific topic was definition of and prioritization of device management functions (update firmware, onboard device, etc.)
+    - Timeline
+        - Oct 31 - Presentation content complete
+        - Nov 7 - Refinement to content before presenting to SB
+        - Nov 7 - Send invites (about two weeks' notice)
+        - Nov 21 (week of) - Follow up and readout with SB participants
+        - To be defined
+            - Presenters (2x) - Run the presentation, 1 to organize
+            - Content preparation volunteers (2x) - Review and contribute to content
+            - Clark available to participate, Josh can support
+            - Send request for volunteers (Josh to sync with Bart)
 - Readout of charter for the PM group (added to repo)
     https://github.com/margo/product_management/pull/77
     - Adjust language around setting of technical direction in the mission statement and core responsibilities
@@ -29,6 +39,7 @@
 
 
 ## Post-PR1
+
 
 
 

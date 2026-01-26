@@ -20,25 +20,18 @@ jobs:
             const issue = context.payload.issue;
             const creator = issue.user.login;
             const org = context.payload.organization.login;
-            
-            // Product Management team slug
             const pmTeamSlug = 'product-management';
             
             try {
-              // Check if user is member of Product Management team
               const { data: membership } = await github.rest.teams.getMembershipForUserInOrg({
                 org: org,
                 team_slug: pmTeamSlug,
                 username: creator
               });
-              
-              // If we get here, user IS in Product Management team
               console.log(`User ${creator} is in Product Management team - allowing issue`);
               return 'allowed';
-              
             } catch (error) {
               if (error.status === 404) {
-                // User is NOT in Product Management team
                 console.log(`User ${creator} is NOT in Product Management team - closing issue`);
                 return 'denied';
               }
@@ -52,46 +45,18 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const issue = context.payload.issue;
-            
-            // Add label
             await github.rest.issues.addLabels({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: issue.number,
               labels: ['unauthorized-creation', 'policy-violation']
             });
-            
-            // Post comment
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: issue.number,
-              body: `## ⚠️ Unauthorized Issue Creation
-
-Hello @${issue.user.login},
-
-Thank you for your interest in contributing to this project. However, this issue has been automatically closed because it was created by someone who is not authorized to create new issues in this repository.
-
-### Repository Policy
-
-According to our contribution guidelines:
-- **Product Management Team**: Authorized to create and manage issues
-- **Technical Working Group (Technical-WG) Members**: Authorized to comment on existing issues only
-
-### What You Can Do
-
-If you have feedback, concerns, or suggestions:
-1. **Find a related existing issue** and add your comments there
-2. **Contact a Product Management team member** to create an issue on your behalf
-3. **Review the README.md** and **CONTRIBUTING.md** for more details on contribution guidelines
-
-We value your input and encourage you to participate by commenting on existing issues!
-
----
-*This issue was automatically closed by the Issue Creation Policy enforcement workflow. If you believe this was done in error, please contact a repository administrator.*`
+              body: '## ⚠️ Unauthorized Issue Creation\n\nHello @' + issue.user.login + ',\n\nThank you for your interest in contributing to this project. However, this issue has been automatically closed because it was created by someone who is not authorized to create new issues in this repository.\n\n### Repository Policy\n\nAccording to our contribution guidelines:\n- **Product Management Team**: Authorized to create and manage issues\n- **Technical Working Group (Technical-WG) Members**: Authorized to comment on existing issues only\n\n### What You Can Do\n\nIf you have feedback, concerns, or suggestions:\n1. **Find a related existing issue** and add your comments there\n2. **Contact a Product Management team member** to create an issue on your behalf\n3. **Review the README.md** and **CONTRIBUTING.md** for more details on contribution guidelines\n\nWe value your input and encourage you to participate by commenting on existing issues!\n\n---\n*This issue was automatically closed by the Issue Creation Policy enforcement workflow. If you believe this was done in error, please contact a repository administrator.*'
             });
-            
-            // Close the issue
             await github.rest.issues.update({
               owner: context.repo.owner,
               repo: context.repo.repo,

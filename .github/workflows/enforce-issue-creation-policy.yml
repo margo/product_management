@@ -1,0 +1,101 @@
+name: Enforce Issue Creation Policy
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+
+jobs:
+  check-issue-creator:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check if user is in Product Management team
+        id: check_team
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const issue = context.payload.issue;
+            const creator = issue.user.login;
+            const org = context.payload.organization.login;
+            
+            // Product Management team slug
+            const pmTeamSlug = 'product-management';
+            
+            try {
+              // Check if user is member of Product Management team
+              const { data: membership } = await github.rest.teams.getMembershipForUserInOrg({
+                org: org,
+                team_slug: pmTeamSlug,
+                username: creator
+              });
+              
+              // If we get here, user IS in Product Management team
+              console.log(`User ${creator} is in Product Management team - allowing issue`);
+              return 'allowed';
+              
+            } catch (error) {
+              if (error.status === 404) {
+                // User is NOT in Product Management team
+                console.log(`User ${creator} is NOT in Product Management team - closing issue`);
+                return 'denied';
+              }
+              throw error;
+            }
+
+      - name: Close unauthorized issue
+        if: steps.check_team.outputs.result == 'denied'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const issue = context.payload.issue;
+            
+            // Add label
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue.number,
+              labels: ['unauthorized-creation', 'policy-violation']
+            });
+            
+            // Post comment
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue.number,
+              body: `## ⚠️ Unauthorized Issue Creation
+
+Hello @${issue.user.login},
+
+Thank you for your interest in contributing to this project. However, this issue has been automatically closed because it was created by someone who is not authorized to create new issues in this repository.
+
+### Repository Policy
+
+According to our contribution guidelines:
+- **Product Management Team**: Authorized to create and manage issues
+- **Technical Working Group (Technical-WG) Members**: Authorized to comment on existing issues only
+
+### What You Can Do
+
+If you have feedback, concerns, or suggestions:
+1. **Find a related existing issue** and add your comments there
+2. **Contact a Product Management team member** to create an issue on your behalf
+3. **Review the README.md** and **CONTRIBUTING.md** for more details on contribution guidelines
+
+We value your input and encourage you to participate by commenting on existing issues!
+
+---
+*This issue was automatically closed by the Issue Creation Policy enforcement workflow. If you believe this was done in error, please contact a repository administrator.*`
+            });
+            
+            // Close the issue
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue.number,
+              state: 'closed',
+              state_reason: 'not_planned'
+            });

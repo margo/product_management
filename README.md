@@ -34,3 +34,28 @@ The Specification Update Process can be used to make suggestions to the PM team.
 |       | b. No                                  | Requires TWG feedback - Assign the issue to PWG (@abbottjb) - **Move to Step 4**                                                            | ```PM - Reviewing TWG Feedback```    |          |
 
 ***
+
+## Issue Management
+
+This repository uses a structured issue management process:
+
+### Who Can Create Issues?
+Only members of the **Project Management Team** are authorized to create new issues.
+
+### Who Can Comment?
+All **Technical Working Group (TWG)** members can:
+- Comment on existing issues
+- Provide feedback and suggestions
+- Participate in discussions
+
+### Automated Enforcement
+An automated workflow monitors issue creation. Issues created by unauthorized users will be:
+- Automatically labelled with `unauthorized-creation` and `policy-violation`
+- Closed with an explanation
+- Logged for audit purposes
+
+### Need to Report Something?
+If you're a TWG member and need to report an issue:
+1. Search for existing related issues first
+2. Add your comments to the relevant issue
+3. Contact a PM team member if a new issue is genuinely needed
